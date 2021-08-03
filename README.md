@@ -8,14 +8,14 @@ This is an example:
 ```php
 class c1 {}
 class c2 extends c1 {}
-class c3 extneds c2 {}
-class c4 extneds c3 {}
-class c5 extneds c4 {}
+class c3 extends c2 {}
+class c4 extends c3 {}
+class c5 extends c4 {}
 // ...
 ```
 
 ## Script usage
-To generate a extend chain:
+To generate an extend chain:
 
 ```shell
 $ ./generate-code.py --help
