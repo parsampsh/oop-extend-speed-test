@@ -51,3 +51,19 @@ python
 ...
 ```
 
+## Testing all of the languages
+For testing all of the languages, you can use `test-all.sh` shell script:
+
+```shell
+$ ./test-all.sh
+php:
+
+<time report>
+=================
+python:
+
+<time report>
+=================
+...
+```
+
