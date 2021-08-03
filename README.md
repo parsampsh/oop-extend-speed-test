@@ -19,13 +19,13 @@ To generate a extend chain:
 
 ```shell
 $ ./generate-code.py --help
-Usage: ./generate-code.py <lang> <count>
+Usage: ./generate_code.py <lang> <count>
 ```
 
 For example:
 
 ```shell
-$ ./generate-code.py python 3000
+$ ./generate_code.py python 3000
 ```
 
 (The **Count** argument is the length of the extend chain).
@@ -33,7 +33,7 @@ $ ./generate-code.py python 3000
 After running the script, output code will be printed. You can put the output in a file:
 
 ```shell
-$ ./generate-code.py python 3000 > code.py
+$ ./generate_code.py python 3000 > code.py
 ```
 
 Then, for testing the time:
@@ -45,7 +45,7 @@ $ time python code.py
 Also you can see list of available languages in the script:
 
 ```shell
-$ ./generate-code.py --langs
+$ ./generate_code.py --langs
 php
 python
 ...
