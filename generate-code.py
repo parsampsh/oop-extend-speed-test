@@ -14,6 +14,12 @@ class_defs = {
 if '--help' in sys.argv:
     print('Usage: python generate-code.py <lang> <count>')
     print('Example: python generate-code.py php 50000')
+    print('To see list of available languages use --langs option')
+    sys.exit()
+
+# check for --langs option
+if '--langs' in sys.argv:
+    print('\n'.join(class_defs.keys()))
     sys.exit()
 
 # get the language name argument

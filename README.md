@@ -42,3 +42,12 @@ Then, for testing the time:
 $ time python code.py
 ```
 
+Also you can see list of available languages in the script:
+
+```shell
+$ ./generate-code.py --langs
+php
+python
+...
+```
+
